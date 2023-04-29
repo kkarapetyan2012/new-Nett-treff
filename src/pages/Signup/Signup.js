@@ -590,6 +590,7 @@ const Signup = () => {
       return false;
     }
     setCurrentSlide(next);
+    console.log(currentSlide)
   };
 
   const handleNextClick = (e) => {

@@ -503,6 +503,7 @@ const slideItems = [
       return false;
     }
     setCurrentSlide(next);
+    console.log(currentSlide)
   };
 
   const handleNextClick = (e) => {
